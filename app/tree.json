@@ -1,0 +1,138 @@
+{id:"1",
+	name:"叶子节点-1",
+},{
+	id:"11",
+	name:"叶子节点-11"
+},{
+	id:"111",
+	name:"叶子节点-111"
+},
+{
+	id:"112",
+	name:"叶子节点-112"
+},
+{
+	id:"113",
+	name:"叶子节点-113"
+},
+{
+	id:"114",
+	name:"叶子节点-114"
+},
+{
+	id:"12",
+	name:"叶子节点-12"
+},
+{
+	id:"121",
+	name:"叶子节点-121"
+}
+{
+	id:"122",
+	name:"叶子节点-122"
+},
+{
+	id:"123",
+	name:"叶子节点-123"
+},
+{
+	id:"124",
+	name:"叶子节点-124"
+},
+{
+	id:"13",
+	name:"叶子节点-13"
+},
+{
+	id:"2",
+	name:"叶子节点-2"
+},
+{
+	id:"21",
+	name:"叶子节点-21"
+},
+{
+	id:"211",
+	name:"叶子节点-211"
+},
+{
+	id:"212",
+	name:"叶子节点-212"
+},....
+
+{id:"1111"}
+{id:"111101"}
+{id:"11110101"}
+
+var zNodes =[
+				{ name:"父节点1 - 展开", open:true,
+					children: [
+						{ name:"父节点11 - 折叠",
+							children: [
+								{ name:"叶子节点111"},
+								{ name:"叶子节点112"},
+								{ name:"叶子节点113"},
+								{ name:"叶子节点114"}
+							]},
+						{ name:"父节点12 - 折叠",
+							children: [
+								{ name:"叶子节点121"},
+								{ name:"叶子节点122"},
+								{ name:"叶子节点123"},
+								{ name:"叶子节点124"}
+							]},
+						{ name:"父节点13 - 没有子节点", isParent:true}
+					]},
+				{ name:"父节点2 - 折叠",
+					children: [
+						{ name:"父节点21 - 展开", open:true,
+							children: [
+								{ name:"叶子节点211"},
+								{ name:"叶子节点212"},
+								{ name:"叶子节点213"},
+								{ name:"叶子节点214"}
+							]},
+						{ name:"父节点22 - 折叠",
+							children: [
+								{ name:"叶子节点221"},
+								{ name:"叶子节点222"},
+								{ name:"叶子节点223"},
+								{ name:"叶子节点224"}
+							]},
+						{ name:"父节点23 - 折叠",
+							children: [
+								{ name:"叶子节点231"},
+								{ name:"叶子节点232"},
+								{ name:"叶子节点233"},
+								{ name:"叶子节点234"}
+							]}
+					]},
+				{ name:"父节点3 - 没有子节点", isParent:true}
+	
+			];
+
+
+Node{
+	id:"0",
+	name:"叶子节点",
+	children:[]
+}
+
+function tre(trees){
+	var n = new Array() ;	//整个大的数组
+
+	n.push(trees[0]);
+
+	for(var i=0;i<trees.lenght;i++){
+
+		//第一个
+		var first = trees[i];
+		var send = trees[i++];
+
+
+
+		if(send.subString(first)){
+			trees
+		}
+	}
+}

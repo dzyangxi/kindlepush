@@ -1,0 +1,14 @@
+{
+  "name": "generator-mongoose-plugin",
+  "homepage": "https://github.com/huei90/generator-mongoose-plugin",
+  "version": "0.0.5-release",
+  "_release": "0.0.5-release",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.5-release",
+    "commit": "f3804941295137b66090459a26b96a296eebd2ef"
+  },
+  "_source": "git://github.com/huei90/generator-mongoose-plugin.git",
+  "_target": "~0.0.5-release",
+  "_originalSource": "generator-mongoose-plugin"
+}

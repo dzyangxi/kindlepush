@@ -1,0 +1,67 @@
+/* Space out content a bit */
+body {
+  padding-bottom: 20px;
+  background-color: #CCCCCC;
+  overflow-x:hidden;
+}
+
+
+.navbar-wrapper {
+  position: absolute;
+  z-index: 15;
+}
+
+#main{
+  margin: 60px;
+}
+
+#right-box{
+  border: 1px solid red ;
+  height: 500px;
+  /*background-color: #FFFFFF ; */
+}
+
+.view{
+  background-color: #FFFFFF ; 
+  height: 750px;  /*暂时先设置一个高度*/
+}
+
+#left-box{
+  border: 1px solid red ;
+  background-color: #FFFFFF ;
+}
+
+.right-box-title{
+  background-color: #F7F8F8 ;
+  /*border-bottom: 1px solid #666666 ;*/
+  height: 50px;
+  text-align:center;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight:bold;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width:768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    width: 1170px;
+  }
+}

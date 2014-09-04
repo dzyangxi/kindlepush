@@ -16,7 +16,7 @@ body {
 }
 
 #right-box{
-  border: 1px solid red ;
+  border: 1px solid #ccc ;
   height: 500px;
   /*background-color: #FFFFFF ; */
 }
@@ -27,8 +27,17 @@ body {
 }
 
 #left-box{
-  border: 1px solid red ;
+  border: 1px solid #ccc ;
   background-color: #FFFFFF ;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc ;
+  width: 285px;
+  height: 600px;
+}
+
+.left-box-title{
+  margin: 5px;
+  border-bottom: 1px solid #ccc;
 }
 
 .right-box-title{
